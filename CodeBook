@@ -1,4 +1,4 @@
-This dataset has mean values of all the variables for given subject and activity. Variables starting with t are time domain signal. Those starting with f are frequency domain signal. 
+This dataset has mean values of all the variables for given subject and activity. Variables starting with t are time domain signal. Those starting with f are frequency domain signal (FFT). 
 
 1	subject
 		This identifies the subject who performed the activity for each window 	sample. Its range is from 1 to 302	activity
@@ -140,4 +140,25 @@ This dataset has mean values of all the variables for given subject and activity
 		The mean FFT frequency domain angular velocity vector measured by the gyroscope for each window sample for Y axis. The units are radians/second.
 69	fBodyGyro-meanFreq()-Z
 		The mean FFT frequency domain angular velocity vector measured by the gyroscope for each window sample for Z axis. The units are radians/second.
-70	fBodyAccMag-mean()71	fBodyAccMag-std()72	fBodyAccMag-meanFreq()73	fBodyBodyAccJerkMag-mean()74	fBodyBodyAccJerkMag-std()75	fBodyBodyAccJerkMag-mad()76	fBodyBodyAccJerkMag-meanFreq()77	fBodyBodyGyroMag-mean()78	fBodyBodyGyroMag-std()79	fBodyBodyGyroMag-meanFreq()80	fBodyBodyGyroJerkMag-mean()81	fBodyBodyGyroJerkMag-std()82	fBodyBodyGyroJerkMag-meanFreq()
+70	fBodyAccMag-mean()
+		The mean frequency domain body acceleration signal magnitude obtained by taking norm of subtracting the gravity from the total acceleration. Measured in standard gravity units ‘g’.
+71	fBodyAccMag-std()
+		The standard deviation frequency body acceleration signal magnitude obtained by taking norm of subtracting the gravity from the total acceleration. Measured in standard gravity units ‘g’.
+72	fBodyAccMag-meanFreq()
+		The mean FFT frequency of body acceleration signal magnitude obtained by taking norm of subtracting the gravity from the total acceleration. Measured in standard gravity units ‘g’.
+73	fBodyBodyAccJerkMag-mean()
+		The mean frequency domain body acceleration jerk signal magnitude obtained by subtracting the gravity from the total acceleration. Measured in standard gravity units ‘g/second’.
+74	fBodyBodyAccJerkMag-std()
+		The standard deviation frequency domain body acceleration jerk signal magnitude obtained by subtracting the gravity from the total acceleration. Measured in standard gravity units ‘g/second’.
+75	fBodyBodyAccJerkMag-meanFreq()
+		The mean FFT frequency domain body acceleration jerk signal magnitude obtained by subtracting the gravity from the total acceleration. Measured in standard gravity units ‘g/second’.
+76	fBodyBodyGyroMag-mean()
+		The mean frequency domain angular velocity vector magnitude. The units are radians/second.
+77	fBodyBodyGyroMag-std()
+		The standard deviation frequency domain angular velocity vector magnitude. The units are radians/second.
+78	fBodyBodyGyroMag-meanFreq()
+		The mean FFT frequency domain angular velocity vector magnitude. The units are radians/second.
+79	fBodyBodyGyroJerkMag-mean()
+		The mean frequency domain angular velocity jerk vector magnitude. The units are radians/second/second.80	fBodyBodyGyroJerkMag-std()
+		The standard deviation frequency domain angular velocity jerk vector magnitude. The units are radians/second/second.81	fBodyBodyGyroJerkMag-meanFreq()
+		The mean FFT frequency domain angular velocity jerk vector magnitude. The units are radians/second/second.
