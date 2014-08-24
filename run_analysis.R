@@ -48,8 +48,6 @@ all.y <- rbind(y_train, y_test)
 all.x <- rbind(x_train, x_test)
 all.sub <- rbind(sub_train, sub_test)
 
-# Need to step to remove NA / ?
-
 # Change the column names in x dataset to be meaningful 
 col <- features[,"V2"]
 colnames(all.x) <- col
@@ -59,12 +57,11 @@ c1 <- c(grep("mean", col), grep("std", col))
 c1 <- sort(c1)
 all.x <- all.x[,c1]
 
-# All the verbose acitivy text in the activity data
+# Add verbose acitivy text in the activity data
 library(car)
 all.y$activity <- recode(all.y[, 1], "1= 'WALKING'; 2='WALKING_UPSTAIRS'; 3='WALKING_DOWNSTAIRS'; 4='SITTING' ;5='STANDING'; 6='LAYING'")
 
 colnames(all.sub) <- c("subject")
-#new <- sub_test
 all.sub$activity <- all.y[,2]
 all.data <- data.frame(subject = all.sub$subject, activity = all.sub$activity, all.x)
 
@@ -74,4 +71,5 @@ library(reshape)
 mel <- reshape::melt(all.data, id = c("subject", "activity"))
 melmean <- cast(mel, subject + activity ~ variable, mean)
 
+# Write final tidy dataset
 write.table(melmean, file = "UCI HAR Tidy DataSet.txt", row.names = FALSE)
