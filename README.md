@@ -29,7 +29,8 @@ Structure of the R script:
   * Add verbose activity description in y DF
   * Combine subject, activity and x 
   * Melt and cast dataset to get the mean for all columns by subject and activity
-
+  * Write the tidy dataset 'UCI HAR Tidy DataSet.txt'
+  
 How to run this script: 
 
 source('./run_analysis.R')
@@ -37,7 +38,7 @@ source('./run_analysis.R')
 Code Book
 =========
 
-Describes the variable the tidy dataset
+Describes the variable of the tidy dataset
 
 
 
