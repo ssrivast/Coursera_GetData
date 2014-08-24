@@ -1,4 +1,4 @@
-This dataset has mean values of all the variables for given subject and activity. 
+This dataset has mean values of all the variables for given subject and activity. Variables starting with t are time domain signal. Those starting with f are frequency domain signal. 
 
 1	subject
 		This identifies the subject who performed the activity for each window 	sample. Its range is from 1 to 302	activity
@@ -66,4 +66,78 @@ This dataset has mean values of all the variables for given subject and activity
 		The standard deviation angular velocity jerk vector measured by the gyroscope for each window sample for Y axis. The units are radians/second/second.
 32	tBodyGyroJerk-std()-Z
 		The standard deviation angular velocity jerk vector measured by the gyroscope for each window sample for Z axis. The units are radians/second/second.
-33	tBodyAccMag-mean()34	tBodyAccMag-std()35	tGravityAccMag-mean()36	tGravityAccMag-std()37	tBodyAccJerkMag-mean()38	tBodyAccJerkMag-std()39	tBodyGyroMag-mean()40	tBodyGyroMag-std()41	tBodyGyroJerkMag-mean()42	tBodyGyroJerkMag-std()43	fBodyAcc-mean()-X44	fBodyAcc-mean()-Y45	fBodyAcc-mean()-Z46	fBodyAcc-std()-X47	fBodyAcc-std()-Y48	fBodyAcc-std()-Z49	fBodyAcc-meanFreq()-X50	fBodyAcc-meanFreq()-Y51	fBodyAcc-meanFreq()-Z52	fBodyAccJerk-mean()-X53	fBodyAccJerk-mean()-Y54	fBodyAccJerk-mean()-Z55	fBodyAccJerk-std()-X56	fBodyAccJerk-std()-Y57	fBodyAccJerk-std()-Z58	fBodyAccJerk-meanFreq()-X59	fBodyAccJerk-meanFreq()-Y60	fBodyAccJerk-meanFreq()-Z61	fBodyGyro-mean()-X62	fBodyGyro-mean()-Y63	fBodyGyro-mean()-Z64	fBodyGyro-std()-X65	fBodyGyro-std()-Y66	fBodyGyro-std()-Z67	fBodyGyro-meanFreq()-X68	fBodyGyro-meanFreq()-Y69	fBodyGyro-meanFreq()-Z70	fBodyAccMag-mean()71	fBodyAccMag-std()72	fBodyAccMag-meanFreq()73	fBodyBodyAccJerkMag-mean()74	fBodyBodyAccJerkMag-std()75	fBodyBodyAccJerkMag-mad()76	fBodyBodyAccJerkMag-meanFreq()77	fBodyBodyGyroMag-mean()78	fBodyBodyGyroMag-std()79	fBodyBodyGyroMag-meanFreq()80	fBodyBodyGyroJerkMag-mean()81	fBodyBodyGyroJerkMag-std()82	fBodyBodyGyroJerkMag-meanFreq()
+33	tBodyAccMag-mean()
+		The mean body acceleration signal magnitude obtained by taking norm of subtracting the gravity from the total acceleration. Measured in standard gravity units ‘g’.
+34	tBodyAccMag-std()
+		The standard deviation of body acceleration signal magnitude obtained by taking norm of subtracting the gravity from the total acceleration. Measured in standard gravity units ‘g’.
+35	tGravityAccMag-mean()
+		Mean gravity acceleration magnitude. Measured in standard gravity units ‘g’.
+36	tGravityAccMag-std()
+		Standard deviation of gravity acceleration magnitude. Measured in standard gravity units ‘g’.
+37	tBodyAccJerkMag-mean()
+		The mean body acceleration jerk signal magnitude obtained by subtracting the gravity from the total acceleration. Measured in standard gravity units ‘g/second’.
+38	tBodyAccJerkMag-std()
+		The standard deviation body acceleration jerk signal magnitude obtained by subtracting the gravity from the total acceleration. Measured in standard gravity units ‘g/second’.
+39	tBodyGyroMag-mean()
+		The mean angular velocity vector magnitude. The units are radians/second.
+40	tBodyGyroMag-std()
+		The standard deviation angular velocity vector magnitude. The units are radians/second.
+41	tBodyGyroJerkMag-mean()
+		The mean angular velocity jerk vector magnitude. The units are radians/second/second.
+42	tBodyGyroJerkMag-std()
+		The standard deviation angular velocity jerk vector magnitude. The units are radians/second/second.
+43	fBodyAcc-mean()-X
+		The mean frequency domain body acceleration signal obtained by subtracting the gravity from the total acceleration for X axis. Measured in standard gravity units ‘g’.
+44	fBodyAcc-mean()-Y
+		The mean frequency domain body acceleration signal obtained by subtracting the gravity from the total acceleration for Y axis. Measured in standard gravity units ‘g’.
+45	fBodyAcc-mean()-Z
+		The mean frequency domain body acceleration signal obtained by subtracting the gravity from the total acceleration for Z axis. Measured in standard gravity units ‘g’.
+46	fBodyAcc-std()-X
+		The standard deviation frequency domain body acceleration signal obtained by subtracting the gravity from the total acceleration for X axis. Measured in standard gravity units ‘g’.
+47	fBodyAcc-std()-Y
+		The standard deviation frequency domain body acceleration signal obtained by subtracting the gravity from the total acceleration for Y axis. Measured in standard gravity units ‘g’.
+48	fBodyAcc-std()-Z
+		The standard deviation frequency domain body acceleration signal obtained by subtracting the gravity from the total acceleration for Z axis. Measured in standard gravity units ‘g’.
+49	fBodyAcc-meanFreq()-X
+		The mean FFT frequency for body acceleration signal obtained by subtracting the gravity from the total acceleration for X axis. Measured in standard gravity units ‘g’.
+50	fBodyAcc-meanFreq()-Y
+		The mean FFT frequency for body acceleration signal obtained by subtracting the gravity from the total acceleration for Y axis. Measured in standard gravity units ‘g’.
+51	fBodyAcc-meanFreq()-Z
+		The mean FFT frequency for body acceleration signal obtained by subtracting the gravity from the total acceleration for Z axis. Measured in standard gravity units ‘g’.
+52	fBodyAccJerk-mean()-X
+		The mean frequency domain body acceleration jerk signal obtained by subtracting the gravity from the total acceleration for X axis. Measured in standard gravity units ‘g/second’.
+53	fBodyAccJerk-mean()-Y
+		The mean frequency domain body acceleration jerk signal obtained by subtracting the gravity from the total acceleration for Y axis. Measured in standard gravity units ‘g/second’.
+54	fBodyAccJerk-mean()-Z
+		The mean frequency domain body acceleration jerk signal obtained by subtracting the gravity from the total acceleration for Z axis. Measured in standard gravity units ‘g/second’.
+55	fBodyAccJerk-std()-X
+		The standard deviation frequency domain body acceleration jerk signal obtained by subtracting the gravity from the total acceleration for X axis. Measured in standard gravity units ‘g/second’.
+56	fBodyAccJerk-std()-Y
+		The standard deviation frequency domain body acceleration jerk signal obtained by subtracting the gravity from the total acceleration for Y axis. Measured in standard gravity units ‘g/second’.
+57	fBodyAccJerk-std()-Z
+		The standard deviation frequency domain body acceleration jerk signal obtained by subtracting the gravity from the total acceleration for Z axis. Measured in standard gravity units ‘g/second’.
+58	fBodyAccJerk-meanFreq()-X
+		The mean FFT frequency domain body acceleration jerk signal obtained by subtracting the gravity from the total acceleration for X axis. Measured in standard gravity units ‘g/second’.
+59	fBodyAccJerk-meanFreq()-Y
+		The mean FFT frequency domain body acceleration jerk signal obtained by subtracting the gravity from the total acceleration for Y axis. Measured in standard gravity units ‘g/second’.
+60	fBodyAccJerk-meanFreq()-Z
+		The mean FFT frequency domain body acceleration jerk signal obtained by subtracting the gravity from the total acceleration for Z axis. Measured in standard gravity units ‘g/second’.
+61	fBodyGyro-mean()-X
+		The mean frequency domain angular velocity vector measured by the gyroscope for each window sample for X axis. The units are radians/second.
+62	fBodyGyro-mean()-Y
+		The mean frequency domain angular velocity vector measured by the gyroscope for each window sample for Y axis. The units are radians/second.
+63	fBodyGyro-mean()-Z
+		The mean frequency domain angular velocity vector measured by the gyroscope for each window sample for Z axis. The units are radians/second.
+64	fBodyGyro-std()-X
+		The standard deviation frequency domain angular velocity vector measured by the gyroscope for each window sample for X axis. The units are radians/second.
+65	fBodyGyro-std()-Y
+		The standard deviation frequency domain angular velocity vector measured by the gyroscope for each window sample for Y axis. The units are radians/second.
+66	fBodyGyro-std()-Z
+		The standard deviation frequency domain angular velocity vector measured by the gyroscope for each window sample for Z axis. The units are radians/second.
+67	fBodyGyro-meanFreq()-X
+		The mean FFT frequency domain angular velocity vector measured by the gyroscope for each window sample for X axis. The units are radians/second.
+68	fBodyGyro-meanFreq()-Y
+		The mean FFT frequency domain angular velocity vector measured by the gyroscope for each window sample for Y axis. The units are radians/second.
+69	fBodyGyro-meanFreq()-Z
+		The mean FFT frequency domain angular velocity vector measured by the gyroscope for each window sample for Z axis. The units are radians/second.
+70	fBodyAccMag-mean()71	fBodyAccMag-std()72	fBodyAccMag-meanFreq()73	fBodyBodyAccJerkMag-mean()74	fBodyBodyAccJerkMag-std()75	fBodyBodyAccJerkMag-mad()76	fBodyBodyAccJerkMag-meanFreq()77	fBodyBodyGyroMag-mean()78	fBodyBodyGyroMag-std()79	fBodyBodyGyroMag-meanFreq()80	fBodyBodyGyroJerkMag-mean()81	fBodyBodyGyroJerkMag-std()82	fBodyBodyGyroJerkMag-meanFreq()
